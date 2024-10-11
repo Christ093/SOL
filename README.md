@@ -50,8 +50,9 @@ Here is an example interaction with the contract:
 
 This will mint 100 tokens to the address 0x123...abc and increase the total supply by 100
 
-2 Burning tokens:
-burn(0x123...abc, 50);
+2. Burning tokens:
+   ```solidity
+   mint(0x123...abc, 100);
 
 This will burn 50 tokens from the address 0x123...abc and reduce the total supply by 50, assuming the address has at least 50 tokens.
 
