@@ -1,8 +1,8 @@
 
-# MyToken Solidity Smart Contract
+# MyToken Solidity
 
 ## Description
-This is a simple token smart contract written in Solidity. The contract allows minting and burning tokens, and keeps track of the total supply and the balances of each account.
+This is a simple token written in Solidity. The contract allows minting and burning tokens, and keeps track of the total supply and the balances of each account.
 
 ## Features
 - Public variables to store:
