@@ -2,7 +2,7 @@
 # MyToken Solidity Smart Contract
 
 ## Description
-This is a simple ERC20-like token smart contract written in Solidity. The contract allows minting and burning tokens, and keeps track of the total supply and the balances of each account.
+This is a simple token smart contract written in Solidity. The contract allows minting and burning tokens, and keeps track of the total supply and the balances of each account.
 
 ## Features
 - Public variables to store:
