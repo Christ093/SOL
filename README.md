@@ -1,8 +1,7 @@
-
 # MyToken Solidity
 
 ## Description
-This is a simple token written in Solidity. The contract allows minting and burning tokens, and keeps track of the total supply and the balances of each account.
+The MyToken contract is a simple implementation of a token. The contract allows minting and burning tokens, and keeps track of the total supply and the balances of each account.
 
 ## Features
 - Public variables to store:
@@ -19,8 +18,7 @@ This is a simple token written in Solidity. The contract allows minting and burn
 - **Parameters**:
   - `_address`: The address that will receive the minted tokens.
   - `_value`: The number of tokens to be minted.
-- **Returns**: None.
-- **Updates**:
+- **Description**:
   - Increases the total supply of tokens.
   - Increases the balance of the given address.
 
@@ -29,8 +27,7 @@ This is a simple token written in Solidity. The contract allows minting and burn
 - **Parameters**:
   - `_address`: The address from which tokens will be burned.
   - `_value`: The number of tokens to be burned.
-- **Returns**: None.
-- **Updates**:
+- **Description**:
   - Decreases the total supply of tokens.
   - Decreases the balance of the given address.
 - **Conditions**:
